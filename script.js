@@ -5,8 +5,7 @@ var myMap;
 var mineral = [];
 var pres = [];
 var termal = [];
-var termal_mineral = [];
-var placemarks = [pres, mineral, termal,  termal_mineral];
+var placemarks = [pres, mineral, termal];
 
 function init() {
     myMap = new ymaps.Map("map", {
